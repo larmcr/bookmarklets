@@ -1,0 +1,1 @@
+javascript:((b='#2E3440',c='#D8DEE9')=>{const cb=()=>{mo.disconnect();const all=document.querySelectorAll('*');for(let i=0;i<all.length;++i){all[i].style.setProperty('background-color',b,'important');all[i].style.setProperty('color',c,'important');}mo.observe(document.documentElement,{subtree:true,childList:true,attributes:true});};const mo=new MutationObserver(cb);cb();})()
